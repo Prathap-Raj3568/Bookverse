@@ -1,0 +1,123 @@
+2025-06-28T11:15:28.010+05:30  INFO 6256 --- [Book] [main] bookstore.BookApplication                : Starting BookApplication using Java 22.0.2 with PID 6256 (D:\incturecom\Book\target\classes started by prath in D:\incturecom\Book)
+2025-06-28T11:15:28.011+05:30 DEBUG 6256 --- [Book] [main] bookstore.BookApplication                : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-06-28T11:15:28.012+05:30  INFO 6256 --- [Book] [main] bookstore.BookApplication                : No active profile set, falling back to 1 default profile: "default"
+2025-06-28T11:15:28.426+05:30  INFO 6256 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-28T11:15:28.467+05:30  INFO 6256 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-06-28T11:15:28.803+05:30  INFO 6256 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-06-28T11:15:28.816+05:30  INFO 6256 --- [Book] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T11:15:28.816+05:30  INFO 6256 --- [Book] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-28T11:15:28.856+05:30  INFO 6256 --- [Book] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-28T11:15:28.856+05:30  INFO 6256 --- [Book] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2025-06-28T11:15:28.973+05:30  INFO 6256 --- [Book] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-28T11:15:29.007+05:30  INFO 6256 --- [Book] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-28T11:15:29.028+05:30  INFO 6256 --- [Book] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-28T11:15:29.198+05:30  INFO 6256 --- [Book] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-28T11:15:29.220+05:30  INFO 6256 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2025-06-28T11:15:29.475+05:30  INFO 6256 --- [Book] [main] com.zaxxer.hikari.pool.HikariPool        : test - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6b487c
+2025-06-28T11:15:29.477+05:30  INFO 6256 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2025-06-28T11:15:29.515+05:30  WARN 6256 --- [Book] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-28T11:15:29.516+05:30  WARN 6256 --- [Book] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-28T11:15:29.528+05:30  INFO 6256 --- [Book] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (test)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-28T11:15:30.076+05:30  INFO 6256 --- [Book] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-28T11:15:30.115+05:30  INFO 6256 --- [Book] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-28T11:15:30.251+05:30  WARN 6256 --- [Book] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-28T11:15:30.500+05:30  INFO 6256 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-06-28T11:15:30.506+05:30  INFO 6256 --- [Book] [main] bookstore.BookApplication                : Started BookApplication in 2.889 seconds (process running for 3.439)
+2025-06-28T11:15:37.339+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T11:15:37.340+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T11:15:37.340+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-28T11:15:37.403+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:37.404+05:30 ERROR 6256 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:37.404+05:30  WARN 6256 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:37.404+05:30 TRACE 6256 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:37.404+05:30 DEBUG 6256 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:38.941+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:38.942+05:30 ERROR 6256 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:38.942+05:30  WARN 6256 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:38.942+05:30 TRACE 6256 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:38.942+05:30 DEBUG 6256 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:48.817+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-9] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:48.818+05:30 ERROR 6256 --- [Book] [http-nio-8084-exec-9] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:48.818+05:30  WARN 6256 --- [Book] [http-nio-8084-exec-9] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:48.818+05:30 TRACE 6256 --- [Book] [http-nio-8084-exec-9] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:48.820+05:30 DEBUG 6256 --- [Book] [http-nio-8084-exec-9] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:53.476+05:30  INFO 6256 --- [Book] [http-nio-8084-exec-7] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:53.477+05:30 ERROR 6256 --- [Book] [http-nio-8084-exec-7] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:53.478+05:30  WARN 6256 --- [Book] [http-nio-8084-exec-7] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:53.479+05:30 TRACE 6256 --- [Book] [http-nio-8084-exec-7] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:15:53.480+05:30 DEBUG 6256 --- [Book] [http-nio-8084-exec-7] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:24:39.634+05:30  INFO 6256 --- [Book] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-28T11:24:39.638+05:30  INFO 6256 --- [Book] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T11:24:39.645+05:30  INFO 6256 --- [Book] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T11:24:39.650+05:30  INFO 6256 --- [Book] [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-28T11:24:39.651+05:30  INFO 6256 --- [Book] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2025-06-28T11:24:39.663+05:30  INFO 6256 --- [Book] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.
+2025-06-28T11:56:02.931+05:30  INFO 7552 --- [Book] [main] bookstore.BookApplication                : Starting BookApplication using Java 22.0.2 with PID 7552 (D:\incturecom\Book\target\classes started by prath in D:\incturecom\Book)
+2025-06-28T11:56:02.932+05:30 DEBUG 7552 --- [Book] [main] bookstore.BookApplication                : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-06-28T11:56:02.933+05:30  INFO 7552 --- [Book] [main] bookstore.BookApplication                : No active profile set, falling back to 1 default profile: "default"
+2025-06-28T11:56:03.679+05:30  INFO 7552 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-28T11:56:03.734+05:30  INFO 7552 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-06-28T11:56:04.081+05:30  INFO 7552 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-06-28T11:56:04.093+05:30  INFO 7552 --- [Book] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-28T11:56:04.094+05:30  INFO 7552 --- [Book] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-28T11:56:04.142+05:30  INFO 7552 --- [Book] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-28T11:56:04.142+05:30  INFO 7552 --- [Book] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1177 ms
+2025-06-28T11:56:04.338+05:30  INFO 7552 --- [Book] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-28T11:56:04.375+05:30  INFO 7552 --- [Book] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-28T11:56:04.398+05:30  INFO 7552 --- [Book] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-28T11:56:04.639+05:30  INFO 7552 --- [Book] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-28T11:56:04.662+05:30  INFO 7552 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2025-06-28T11:56:04.960+05:30  INFO 7552 --- [Book] [main] com.zaxxer.hikari.pool.HikariPool        : test - Added connection com.mysql.cj.jdbc.ConnectionImpl@1805ca5c
+2025-06-28T11:56:04.961+05:30  INFO 7552 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2025-06-28T11:56:05.006+05:30  WARN 7552 --- [Book] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-28T11:56:05.007+05:30  WARN 7552 --- [Book] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-28T11:56:05.022+05:30  INFO 7552 --- [Book] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (test)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-28T11:56:05.699+05:30  INFO 7552 --- [Book] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-28T11:56:05.784+05:30  INFO 7552 --- [Book] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-28T11:56:05.949+05:30  WARN 7552 --- [Book] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-28T11:56:06.429+05:30  INFO 7552 --- [Book] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-06-28T11:56:06.507+05:30  INFO 7552 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-06-28T11:56:06.520+05:30  INFO 7552 --- [Book] [main] bookstore.BookApplication                : Started BookApplication in 4.103 seconds (process running for 4.784)
+2025-06-28T11:56:07.332+05:30  INFO 7552 --- [Book] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-28T11:56:07.333+05:30  INFO 7552 --- [Book] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-28T11:56:07.334+05:30  INFO 7552 --- [Book] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-28T11:56:20.955+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-5] bookstore.controller.BookController      : Fetching all books
+2025-06-28T11:56:31.442+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-4] bookstore.controller.BookController      : Fetching book with ID 1
+2025-06-28T11:56:31.442+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-4] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:31.442+05:30 ERROR 7552 --- [Book] [http-nio-8084-exec-4] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:31.442+05:30  WARN 7552 --- [Book] [http-nio-8084-exec-4] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:31.442+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-4] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:34.034+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-2] bookstore.controller.BookController      : Fetching book with ID 2
+2025-06-28T11:56:34.034+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:34.034+05:30 ERROR 7552 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:34.034+05:30  WARN 7552 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:56:34.034+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-2] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:57:15.651+05:30  WARN 7552 --- [Book] [http-nio-8084-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public bookstore.Entity.Book bookstore.controller.BookController.addBook(bookstore.Entity.Book)]
+2025-06-28T11:58:33.904+05:30  WARN 7552 --- [Book] [http-nio-8084-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2025-06-28T11:59:08.573+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-10] bookstore.controller.BookController      : Adding new book: amd
+2025-06-28T11:59:23.610+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-8] bookstore.controller.BookController      : Fetching all books
+2025-06-28T11:59:28.536+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-1] bookstore.controller.BookController      : Fetching book with ID 3
+2025-06-28T11:59:28.536+05:30  INFO 7552 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:59:28.536+05:30 ERROR 7552 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:59:28.536+05:30  WARN 7552 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:59:28.536+05:30 DEBUG 7552 --- [Book] [http-nio-8084-exec-1] bookstore.service.BookService            : adding Book to the dadabase 
+2025-06-28T11:59:53.942+05:30  INFO 7552 --- [Book] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-28T11:59:53.945+05:30  INFO 7552 --- [Book] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-28T11:59:53.959+05:30  INFO 7552 --- [Book] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-28T11:59:53.966+05:30  INFO 7552 --- [Book] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-28T11:59:53.968+05:30  INFO 7552 --- [Book] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2025-06-28T11:59:53.976+05:30  INFO 7552 --- [Book] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.
