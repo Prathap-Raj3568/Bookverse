@@ -69,15 +69,10 @@ DELETE /books/{id}
 Data model
 
 Book entity fields:
-
 id (Long) — identifier
-
 title (String)
-
 author (String)
-
 price (BigDecimal)
-
 publishedDate (LocalDate)
 
 Book/
@@ -89,6 +84,8 @@ Book/
 ├─ src/main/resources/application.properties
 ├─ src/test/java/...
 ├─ pom.xml
+
+This file helps users to understand and run project seamless of confusions.
 
 
 
